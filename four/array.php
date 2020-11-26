@@ -1,9 +1,9 @@
 <?php
 $array = [];
-$permitted_chars = '0123456789abcdefghijklmnopqrstuvwxyz';
+$permittedСhars = '0123456789abcdefghijklmnopqrstuvwxyz';
 for($i = 0; $i<100; $i++)
 {
-    $array[$i] =  substr(str_shuffle($permitted_chars), 0, 1);
+    $array[$i] =  substr(str_shuffle($permittedСhars), 0, 1);
 }
 $count = 0;
 for ($i = 0; $i<99; $i++)
@@ -12,7 +12,6 @@ for ($i = 0; $i<99; $i++)
     {
         $count++;
     }
-
 }
 foreach ($array as $value)
     echo $value;

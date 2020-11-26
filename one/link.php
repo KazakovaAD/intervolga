@@ -1,2 +1,2 @@
-<?php require_once("logic/logicOne.php");?>
+<?php require_once("logic/logicText.php"); ?>
 <p><?=$a?></p>
